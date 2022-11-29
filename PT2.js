@@ -5,22 +5,16 @@
  The choice should be made based on the value of another variable called isMale.
 */
 
-//function gender(isMale) {
-//    return (isMale ? 'male' : 'female')
-//}
-//console.log(gender(true));
-//console.log(gender(false));
-
-let gender = "female"
-let isMale = gender ? "fale" : "female";
-console.log(gender);
+let isMale = true;
+let myGender = isMale ? "male" : "female";
+console.log(myGender);
 
 /*EX 2
  Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.
 */
 
-let int1 = 4; 
-let int2 = 8;
+let int1 = 2; 
+let int2 = 4;
 let intSum = int1 + int2;
 
 let intChecker = ((int1 === 8) || (int2 === 8)) || (intSum===8);
