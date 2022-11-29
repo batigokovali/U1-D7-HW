@@ -93,23 +93,49 @@ console.log("Average of int1 and int2 is:", ex5_AverageFinder);
  Write a piece of code for finding the longest of two given strings.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let ex6_str1 = "epi";
+let ex6_str2 = "code";
 
-/*EX 7
+if ((parseInt(ex6_str1))>parseInt(ex6_str2))
+{
+    console.log("str1 is longer than str2");
+}
+ else {
+    console.log("str2 is longer than str1");
+ }
+
+
+
+/*EX 7image.png
  Write a piece of code for checking if a given value is a integer or not.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let ex7_value = 6;
+
+typeof ex7_value;
+
+console.log(typeof ex7_value);
 
 /*EX 8
  Write a piece of code for calculating a certain percentage of a given number.
  (Ex.: the 20% of 400 is 80)
 */
 
-/* WRITE YOUR ANSWER HERE */
+let ex8_Number = 100;
+let ex8_DesiredPercentage = 50;
+
+let ex8_PercentageCalculator = ex8_Number * (ex8_DesiredPercentage/100);
+console.log("%" + ex8_DesiredPercentage + " of " + ex8_Number + " is: " + ex8_PercentageCalculator);
 
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let ex9_number = 4;
+
+if ((ex9_number) % 2 === 0) 
+{
+    console.log("ex9_number is even an even number.");
+} else {
+    console.log("ex9_number is an odd number.")
+}
