@@ -12,7 +12,7 @@
 //console.log(gender(false));
 
 let gender = "female"
-let isMale = gender ? "Male" : "Female";
+let isMale = gender ? "fale" : "female";
 console.log(gender);
 
 /*EX 2
