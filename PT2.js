@@ -112,9 +112,14 @@ if ((parseInt(ex6_str1))>parseInt(ex6_str2))
 
 let ex7_value = 6;
 
-typeof ex7_value;
+if (ex7_value % 1 === 0)
+{
+    console.log("The number is an integer.");
+} else {
+    console.log("The number is not an integer.");
+}
 
-console.log(typeof ex7_value);
+
 
 /*EX 8
  Write a piece of code for calculating a certain percentage of a given number.
