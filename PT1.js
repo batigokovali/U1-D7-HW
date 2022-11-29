@@ -60,6 +60,7 @@ let myExtraction = 12 - x;
 let name1 = "john";
 let name2 = "John";
 console.log("If name1 (john) and name2 (John) are the same?", name1===name2);
+console.log("If name1 (john) and name2 (John) are the same?", name1===(name2.toLowerCase()));
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
